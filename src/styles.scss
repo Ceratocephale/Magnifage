@@ -1,1 +1,191 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+html {
+	font-family: 'Montserrat', sans-serif;
+	//line-height: 0.8;
+	-webkit-font-smoothing: antialiased;
+	margin-top: 60px;
+	/* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+  margin: 0;
+}
+.container {
+	width: 80%;
+	/*min-height : 100%;*/
+	margin: auto;
+}
+
+p{
+	text-align: justify;
+}
+
+.text-danger {
+    color: red;
+    font-size: 0.8em;
+}
+
+h1 {
+	font-size: 2.4em;
+	color: #bc994e;
+}
+
+h2{
+	font-size: 1.5em;
+	color: gray;
+	margin: 10px;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+h2 > a{
+	font-size: 0.8em;
+    text-decoration:  none;
+	color: gray;
+}
+
+ul{
+    padding-inline-start: 15px;
+}
+
+th{
+  margin: 0;
+  padding: 0.5em;
+  color: white;
+  background-color: #bc994e;
+  text-align: center;
+}
+td {
+  margin: 0;
+  //padding: 0.5em;
+  text-align: left;
+}
+/* NAVBAR & FOOTER */
+/*
+body{
+  margin: 0;
+}*/
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+  background-color: #171718;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.navbar2{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+  background-color: #69676d;
+	height: 60px;
+	width: 100%;
+	//position: fixed;
+	top: 0px;
+	right: 0;
+}
+
+button{
+  font-family : inherit;
+	font-size: 1rem;
+	color: white;
+	border: solid;
+	border-radius: 5px;
+	background-color: #bc994e;
+  padding: 0.5rem;
+}
+
+
+button:hover{
+	border-color: transparent;
+  font-weight: bold;
+	filter: brightness(90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button:disabled{
+  background-color: #e6decd;
+  pointer-events: none;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    background-color: lightgray;
+	margin-top: 40px;
+	height: 100px;
+	width: 100%;
+	/*position: absolute;*/
+	right: 0;
+}
+
+a {
+    text-decoration:  none;
+    color: black;
+}
+
+.navbar > a {
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration:  none;
+}
+
+.navbar2 > a {
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-decoration:  none;
+}
+
+a:hover {
+	//font-weight: bold;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);	/* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+img{
+	display: block;
+	width: 100%;
+	border-radius: 10px;
+}
+
+/* FLEXBOX POUR IMAGE ET TEXTE L'UN A COTE DE L'AUTRE */
+
+.flexbox{
+	display: flex;
+}
+
+.img3{
+	width: 35%;
+	height: 35%;
+}
+
+#margin-left{
+	margin-left: 20px;
+}
+
+#margin-right{
+	margin-right: 20px;
+}
+
+.flexbox > p{
+	margin-top: 0;
+}
+
+.golden{
+    color: #bc994e;
+}
