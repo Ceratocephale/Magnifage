@@ -27,7 +27,7 @@ p{
 }
 
 .text-danger {
-    color: red;
+    color: chartreuse;
     font-size: 0.8em;
 }
 
@@ -38,7 +38,7 @@ h1 {
 
 h2{
 	font-size: 1.5em;
-	color: gray;
+	color: chartreuse;
 	margin: 10px;
 	margin-top: 20px;
 	margin-left: 0px;
@@ -57,7 +57,7 @@ ul{
 th{
   margin: 0;
   padding: 0.5em;
-  color: white;
+  color: chartreuse;
   background-color: #bc994e;
   text-align: center;
 }
@@ -75,7 +75,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-  background-color: #171718;
+  background-color: chartreuse;
 	height: 60px;
 	width: 100%;
 	position: fixed;
@@ -87,7 +87,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-  background-color: #69676d;
+  background-color: chartreuse;
 	height: 60px;
 	width: 100%;
 	//position: fixed;
@@ -101,7 +101,7 @@ button{
 	color: white;
 	border: solid;
 	border-radius: 5px;
-	background-color: #bc994e;
+	background-color: chartreuse;
   padding: 0.5rem;
 }
 
